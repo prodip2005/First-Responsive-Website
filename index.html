@@ -1,211 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-     <script src="https://kit.fontawesome.com/0cf882a41a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0cf882a41a.js" crossorigin="anonymous"></script>
 
     <title>Assignment-2</title>
 </head>
 <body class="bg-[#f5f8ff]">
-    <header class="flex flex-row items-center justify-between  px-[24px] py-4 lg:mb-[120px] lg:px-[150px] lg:justify-between">
-        <img class="mt-8 h-[38px] w-[63px] lg:h-20 lg:w-32" src="assets/logo.png" alt="">
+    <header class="flex flex-row items-center justify-between px-[24px] py-4 md:mb-[120px] md:px-[150px] md:justify-between">
+        <img
+            class="mt-8 h-[38px] w-[63px] md:h-20 md:w-32"
+            src="assets/logo.png"
+            alt=""
+        />
 
         <nav class="flex gap-12 mt-10">
-            <a class="font-extrabold text-[20px] hidden lg:inline" href="">Home</a>
-            <a class="text-[#8987A1] text-[20px] hidden lg:inline" href="">Shop</a>
-            <a class="text-[#8987A1] text-[20px] hidden lg:inline" href="">About us</a>
-            <a class=" flex items-center gap-4" href=""><i class="fa-solid fa-cart-shopping"></i><span>Cart($56)</span></a>
+            <a class="font-extrabold text-[20px] hidden md:inline" href="">Home</a>
+            <a class="text-[#8987A1] text-[20px] hidden md:inline" href="">Shop</a>
+            <a class="text-[#8987A1] text-[20px] hidden md:inline" href="">About us</a>
+            <a class="flex items-center gap-4" href="">
+                <i class="fa-solid fa-cart-shopping"></i><span>Cart($56)</span>
+            </a>
         </nav>
     </header>
 
-<main class="mx-full lg:mx-[150px]">
-    <div class="flex flex-col-reverse justify-between lg:items-center lg:flex-row ">
-        
-        <div class="max-w-xl lg:pt-[80px]">
-            <h1 class="text-[24px] ml-[16px] mt-[28px] lg:text-[65px] font-extrabold leading-tight" style="font-family: 'Noto Serif', serif;">
-                ALWAYS <span class="text-orange-600">FRESH</span> <br class="block lg:hidden" /><span class="text-orange-600">FLOWERS</span>
+    <main class="mx-full md:mx-[150px]">
+        <div class="flex flex-col-reverse justify-between md:items-center md:flex-row">
+            <div class="max-w-xl md:pt-[80px]">
+                <h1
+                    class="text-[24px] ml-[16px] mt-[28px] md:text-[65px] font-extrabold leading-tight"
+                    style="font-family: 'Noto Serif', serif"
+                >
+                    ALWAYS
+                    <span class="text-orange-600">FRESH</span>
+                    <br class="block md:hidden" />
+                    <span class="text-orange-600">FLOWERS</span>
+                </h1>
+                <p
+                    class="text-[#8987A1] mt-[13px] ml-[16px] mr-[28px] text-[14px] md:text-[22px] md:mt-[20px]"
+                >
+                    Indulge your senses with the beauty and fragrance of our fresh flower
+                    shop. From classic roses to exotic blooms, we offer a wide variety of
+                    fresh flowers that are perfect for any occasion.
+                </p>
+            </div>
+
+            <div class="mt-[28px] md:pt-[50px]">
+                <img
+                    class="w-[393px] h-[245px] md:w-[570px] md:h-[355px]"
+                    src="assets/hero-flower.png"
+                    alt="Fresh Flowers"
+                />
+            </div>
+        </div>
+
+        <div class="mt-[65px] mb-[16px] md:mb-[16px] md:mt-[120px]">
+            <div
+                class="font-bold text-[24px] md:text-[50px] text-center"
+                style="font-family: 'Noto Serif', serif"
+            >
+                <span class="text-orange-600">Our</span> Plants
+            </div>
+
+            <p
+                class="text-center mx-[28px] md:mx-auto md:w-[800px] text-[14px] md:text-[22px] text-[#8987A1]"
+            >
+                Indulge your senses with the beauty and
+                <br class="block md:hidden" />
+                fragrance of our fresh flower shop. From classic
+                <br class="block md:hidden" />
+                roses to exotic blooms, we offer a wide variety of
+                <br class="block md:hidden" />
+                fresh.
+            </p>
+
+            <div class="grid mx-[14px] grid-cols-2 md:grid-cols-4 gap-[20px] mt-[49px]">
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full h-[50px]"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img
+                        class="w-[171px] h-[196px] md:h-[322px] md:w-[270px]"
+                        src="assets/sample-flower-image.png"
+                        alt=""
+                    />
+                    <h3 class="font-medium mt-4 text-[16px] md:text-[22px]">Lily Blossom</h3>
+                    <h3 class="font-bold text-[16px] md:text-[22px]">20 USD</h3>
+                    <button
+                        class="mt-4 bg-orange-600 px-6 py-2 text-white w-full"
+                    >
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-[42px] mx-[17px] md:mt-[210px] flex flex-col md:flex-row">
+            <div class="relative">
+                <img
+                    class="w-[358px] h-[396px] md:w-[540px] md:h-[597px]"
+                    src="assets/flower-store.png"
+                    alt=""
+                />
+
+                <img
+                    class="hidden md:inline md:w-[286px] md:h-[286px] absolute -top-32 -right-23"
+                    src="assets/trusted-badge.png"
+                    alt=""
+                />
+            </div>
+
+            <div class="w-[358px] md:w-[540px] pt-[18px] md:pt-[38px] md:pb-[38px] md:pl-[60px]">
+                <h1
+                    class="text-[24px] md:text-[50px] font-bold"
+                    style="font-family: 'Noto Serif', serif"
+                >
+                    Flower & Plants Lover
+                </h1>
+                <ul
+                    style="list-style-type: disc;"
+                    class="text-[14px] md:text-[22px] text-[#8987A1] ml-[17px] md:ml-[30px]"
+                >
+                    <li class="mb-[16px] md:mb[20px]">
+                        Indulge your senses with the beauty and fragrance of our fresh
+                        flower shop. From classic roses to exotic blooms, we offer a wide
+                        variety of fresh.
+                    </li>
+                    <li class="mb-[16px] md:mb[20px]">
+                        Indulge your senses with the beauty and fragrance of our fresh
+                        flower shop. From classic roses to exotic blooms, we offer a wide
+                        variety of fresh.
+                    </li>
+                    <li class="mb-[16px] md:mb[20px]">
+                        Indulge your senses with the beauty and fragrance of our fresh
+                        flower shop. From classic roses to exotic blooms, we offer a wide
+                        variety of fresh.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-[143px] md:mt-[133px] text-center">
+            <h1
+                style="font-family: 'Noto Serif', serif"
+                class="text-[24px] md:text-[50px] font-bold"
+            >
+                <span class="text-orange-600">Latest</span> Deals
             </h1>
-            <p class="text-[#8987A1] mt-[13px] ml-[16px] mr-[28px] text-[14px] lg:text-[22px] lg:mt-[20px]">
-                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+            <p
+                class="text-[14px] mx-[28px] mb-[51px] md:mx-[200px] md:mb-[10px] md:text-[22px] text-[#8987A1]"
+            >
+                Indulge your senses with the beauty and
+                <br class="block md:hidden" />
+                fragrance of our fresh flower shop. From classic
+                <br class="block md:hidden" />
+                roses to exotic blooms, we offer a wide variety of
+                <br class="block md:hidden" />
+                fresh.
             </p>
         </div>
 
-        
-        <div class="mt-[28px] lg:pt-[50px]">
-            <img class="w-[393px] h-[245px] lg:w-[570px] lg:h-[355px]" src="assets/hero-flower.png" alt="Fresh Flowers">
+        <div class="flex flex-col md:flex-row md:gap-7">
+            <div class="flex flex-col gap-[20px] md:flex-col md:gap-[25px]">
+                <!-- First image -->
+                <div
+                    class="relative h-[184px] mx-[16px] md:mt-[120px] md:w-[367px] md:h-[201px]"
+                >
+                    <img
+                        class="w-full h-full brightness-40 rounded-2xl object-cover"
+                        src="assets/deal-bloom.png"
+                        alt=""
+                    />
+
+                    <div
+                        class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl"
+                    >
+                        <p
+                            class="text-white text-[20px] md:text-[22px] font-bold"
+                            style="font-family: 'Noto Serif', serif"
+                        >
+                            60% Off | Bloom Plant
+                        </p>
+                        <button
+                            class="text-white text-[13px] md:text-[16px] font-semibold"
+                        >
+                            <u>Shop Now</u>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Second image -->
+                <div
+                    class="relative h-[184px] mx-[16px] md:w-[367px] md:h-[197px]"
+                >
+                    <img
+                        class="w-full h-full brightness-40 rounded-2xl object-cover"
+                        src="assets/deal-ana.png"
+                        alt=""
+                    />
+                    <div
+                        class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl"
+                    >
+                        <p
+                            class="text-white text-[20px] md:text-[22px] font-bold"
+                            style="font-family: 'Noto Serif', serif"
+                        >
+                            30% Off | Ana Plant
+                        </p>
+                        <button
+                            class="text-white text-[13px] md:text-[16px] font-semibold"
+                        >
+                            <u>Shop Now</u>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right-side large image -->
+            <div
+                class="relative h-[184px] mx-[16px] mt-[20px] md:mt-[120px] md:w-[753px] md:h-[423px]"
+            >
+                <img
+                    class="w-full h-full brightness-40 rounded-2xl object-cover"
+                    src="assets/deal-zabo.png"
+                    alt=""
+                />
+                <div
+                    class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl"
+                >
+                    <p
+                        class="text-white text-[20px] md:text-[40px] font-bold"
+                        style="font-family: 'Noto Serif', serif"
+                    >
+                        25% Off | Zabo Plant
+                    </p>
+                    <button class="text-white text-[13px] font-semibold md:text-[28px]">
+                        <u>Shop Now</u>
+                    </button>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="mt-[65px] mb-[16px] lg:mb-[16px] lg:mt-[120px]">
-        <div class="font-bold text-[24px] lg:text-[50px] text-center" style="font-family: 'Noto Serif', serif;"><span class="text-orange-600">Our</span> Plants</div>
-
-        <p class="text-center mx-[28px] lg:mx-auto lg:w-[800px] text-[14px] lg:text-[22px] text-[#8987A1]">Indulge your senses with the beauty and<br class="block lg:hidden" /> fragrance of our fresh flower shop. From classic<br class="block lg:hidden" /> roses to exotic blooms, we offer a wide variety of<br class="block lg:hidden" /> fresh.</p>
-
-
-        <div class="grid mx-[14px] grid-cols-2 lg:grid-cols-4 gap-[20px] mt-[49px]">
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full h[50px]">ADD TO CART</button>
-            </div>
-            <div class="flex flex-col items-center">
-                <img class="w-[171px] h-[196px] lg:h-[322px] lg:w-[270px]" src="assets/sample-flower-image.png" alt="">
-                <h3 class="font-medium mt-4 text-[16px] lg:text-[22px]">Lily Blossom</h3>
-                <h3 class="font-bold text-[16px] lg:text-[22px]">20 USD</h3>
-                <button class="mt-4 bg-orange-600 px-6 py-2 text-white w-full">ADD TO CART</button>
-            </div>
-            
-        </div>
-    </div>
-
-    <div class="mt-[42px] mx-[17px] lg:mt-[210px] flex flex-col lg:flex-row">
-        <div class="relative">
-            <img class="w-[358px] h-[396px] lg:w-[540px] lg:h-[597px]" src="assets/flower-store.png" alt="">
-
-        <img class="hidden lg:inline lg:w-[286px] lg:h-[286px] absolute -top-32 -right-23" src="assets/trusted-badge.png" alt="">
-        </div>
-
-        <div class="w-[358px] lg:w-[540px] pt-[18px] lg:pt-[38px] lg:pb-[38px]  lg:pl-[60px]">
-            <h1 class="text-[24px] lg:text-[50px] font-bold" style="font-family: 'Noto Serif', serif;">Flower & Plants Lover</h1>
-            <ul style="list-style-type: disc;" class="text-[14px] lg:text-[22px] text-[#8987A1] ml-[17px] lg:ml-[30px]">
-                <li class="mb-[16px] lg:mb[20px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="mb-[16px] lg:mb[20px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="mb-[16px] lg:mb[20px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-            </ul>
-        </div>
-        
-    </div>
-
-    
-    <div class="mt-[143px] lg:mt-[133px] text-center">
-        <h1 style="font-family: 'Noto Serif', serif;" class="text-[24px] lg:text-[50px] font-bold"><span class="text-orange-600">Latest</span> Deals</h1>
-        <p class="text-[14px] mx-[28px] mb-[51px] lg:mx-[200px] lg:mb-[10px] lg:text-[22px] text-[#8987A1]">Indulge your senses with the beauty and<br class="block lg:hidden" /> fragrance of our fresh flower shop. From classic<br class="block lg:hidden" /> roses to exotic blooms, we offer a wide variety of<br class="block lg:hidden" /> fresh.</p>
-    </div>
-    
-   <div class="flex flex-col lg:flex-row  lg:gap-7">
-  <div class="flex flex-col gap-[20px] lg:flex-col lg:gap-[25px]">
-    <!-- First image -->
-    <div class="relative h-[184px] mx-[16px] lg:mt-[120px] lg:w-[367px] lg:h-[201px]">
-      <img class="w-full h-full brightness-40 rounded-2xl object-cover" src="assets/deal-bloom.png" alt="">
-      
-      <div class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl ">
-        <p class="text-white text-[20px] lg:text-[22px] font-bold" style="font-family: 'Noto Serif', serif;">60% Off | Bloom Plant</p>
-        <button class="text-white text-[13px] lg:text-[16px] font-semibold"><u>Shop Now</u></button>
-    </div>
-    </div>
-
-    <!-- Second image -->
-    <div class="relative h-[184px] mx-[16px] lg:w-[367px] lg:h-[197px]">
-      <img class="w-full h-full brightness-40 rounded-2xl object-cover" src="assets/deal-ana.png" alt="">
-      <div class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl">
-        <p class="text-white text-[20px] lg:text-[22px] font-bold" style="font-family: 'Noto Serif', serif;">30% Off | Ana  Plant</p>
-         <button class="text-white text-[13px] lg:text-[16px] font-semibold"><u>Shop Now</u></button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Right-side large image -->
-  <div class="relative h-[184px] mx-[16px] mt-[20px] lg:mt-[120px] lg:w-[753px] lg:h-[423px]">
-    <img class="w-full h-full brightness-40 rounded-2xl object-cover" src="assets/deal-zabo.png" alt="">
-    <div class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl">
-      <p class="text-white text-[20px] lg:text-[40px] font-bold" style="font-family: 'Noto Serif', serif;">25% Off | Zabo Plant</p>
-       <button class="text-white text-[13px] font-semibold lg:text-[28px]"><u>Shop Now</u></button>
-    </div>
-  </div>
-</div>
-</main>
-
+    </main>
 
     <footer class="pb-[50px]">
-        <div class="relative mt-[40px] lg:mt-[120px] lg:mb-[50px]">
-      <img class="w-[393px] h-[276px] lg:w-full lg:h-full" src="assets/news-letter-bg.png" alt="">
-      <div class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl ">
-        <p class="text-white text-[20px] lg:text-[50px] font-bold" style="font-family: 'Noto Serif', serif;">Join the colorful Bunch</p>
-        <div class="flex mt-[23px]">
-            <input class="bg-white w-[218px] h-[50px] lg:w-[644px] lg:h-[50px] p-6" type="email" name="" id="" placeholder="Write email">
-        <button class="font-semibold text-[16px] w-[103px] h-[50px]
-        lg:w-[186px] lg:h-[50px] bg-orange-600 text-white">Subscribe</button>
-        </div>
-    </div>
-    </div>
-    
-    <div class="flex flex-col lg:flex-row gap-[20px] lg:gap-[110px] mx-[20px] lg:mx-[160px] mt-[50px]">
-        <div>
-        <img class="w-[180px] h-[109px] lg:w-[135px] lg:h-[82px]" src="assets/logo.png" alt="">
-        <p class="text-[16px] lg:text-[22px] text-[#8987A1] mt-[16px]">Indulge your senses with the <br class="hidden lg:block"> beauty and fragrance of our fresh <br class="hidden lg:block"> flower shop. </p>
-        </div>
-
-
-        <div class="flex flex-col text-[#6B7280] gap-[26px] lg:gap-[32px]">
-            <a class="whitespace-nowrap" href="">Home</a>
-            <a class="whitespace-nowrap" href="">About Us</a>
-            <a class="whitespace-nowrap" href="">Blog</a>
-            <a class="whitespace-nowrap" href="">FAQ</a>
-            <a class="whitespace-nowrap" href="">Contact Us</a>
-
-        </div>
-
-        <div class="flex flex-col text-[#6B7280]  gap-[32px]">
-            <a class="whitespace-nowrap" href="">Features</a>
-            <a class="whitespace-nowrap" href="">Pricing</a>
-            <a class="whitespace-nowrap" href="">Privacy Policy</a>
-            <a class="whitespace-nowrap" href="">Terms of Service</a>
-            <a class="whitespace-nowrap" href="">Help Center</a>
-
-        </div>
-       
-        <div class="flex gap-[24px]">
-        <img class="w-[36px] h-[36px]" src="assets/icon-linkedin.png" alt="">
-        <img class="w-[36px] h-[36px]" src="assets/icon-twitter.png" alt="">
-        <img class="w-[36px] h-[36px]" src="assets/icon-facebook.png" alt="">
-        <img class="w-[36px] h-[36px]" src="assets/icon-youtube.png" alt="">
+        <div class="relative mt-[40px] md:mt-[120px] md:mb-[50px]">
+            <img
+                class="w-[393px] h-[276px] md:w-full md:h-full"
+                src="assets/news-letter-bg.png"
+                alt=""
+            />
+            <div
+                class="absolute inset-0 flex flex-col items-center justify-center rounded-2xl"
+            >
+                <p
+                    class="text-white text-[20px] md:text-[50px] font-bold"
+                    style="font-family: 'Noto Serif', serif"
+                >
+                    Join the colorful Bunch
+                </p>
+                <div class="flex mt-[23px]">
+                    <input
+                        class="bg-white w-[218px] h-[50px] md:w-[644px] md:h-[50px] p-6"
+                        type="email"
+                        placeholder="Write email"
+                    />
+                    <button
+                        class="font-semibold text-[16px] w-[103px] h-[50px] md:w-[186px] md:h-[50px] bg-orange-600 text-white"
+                    >
+                        Subscribe
+                    </button>
+                </div>
+            </div>
         </div>
 
-    </div>
+        <div
+            class="flex flex-col md:flex-row gap-[20px] md:gap-[110px] mx-[20px] md:mx-[160px] mt-[50px]"
+        >
+            <div>
+                <img
+                    class="w-[180px] h-[109px] md:w-[135px] md:h-[82px]"
+                    src="assets/logo.png"
+                    alt=""
+                />
+                <p
+                    class="text-[16px] md:text-[22px] text-[#8987A1] mt-[16px]"
+                >
+                    Indulge your senses with the
+                    <br class="hidden md:block" />
+                    beauty and fragrance of our fresh
+                    <br class="hidden md:block" />
+                    flower shop.
+                </p>
+            </div>
 
+            <div class="flex flex-col text-[#6B7280] gap-[26px] md:gap-[32px]">
+                <a class="whitespace-nowrap" href="">Home</a>
+                <a class="whitespace-nowrap" href="">About Us</a>
+                <a class="whitespace-nowrap" href="">Blog</a>
+                <a class="whitespace-nowrap" href="">FAQ</a>
+                <a class="whitespace-nowrap" href="">Contact Us</a>
+            </div>
 
+            <div class="flex flex-col text-[#6B7280] gap-[32px]">
+                <a class="whitespace-nowrap" href="">Features</a>
+                <a class="whitespace-nowrap" href="">Pricing</a>
+                <a class="whitespace-nowrap" href="">Privacy Policy</a>
+                <a class="whitespace-nowrap" href="">Terms of Service</a>
+                <a class="whitespace-nowrap" href="">Help Center</a>
+            </div>
 
+            <div class="flex gap-[24px]">
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="assets/icon-linkedin.png"
+                    alt=""
+                />
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="assets/icon-twitter.png"
+                    alt=""
+                />
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="assets/icon-facebook.png"
+                    alt=""
+                />
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="assets/icon-youtube.png"
+                    alt=""
+                />
+            </div>
+        </div>
     </footer>
-    
 </body>
 </html>
